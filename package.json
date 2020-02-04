@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/bmkrocks1/frost-web.git"
   },
+  "homepage": "https://bmkrocks1.github.io/frost-web",
   "dependencies": {
     "@material-ui/core": "^4.9.0",
     "@material-ui/icons": "^4.5.1",
