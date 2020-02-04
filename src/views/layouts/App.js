@@ -143,7 +143,7 @@ export default () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Mini variant drawer
+            Frost Web Application
           </Typography>
         </Toolbar>
       </AppBar>
