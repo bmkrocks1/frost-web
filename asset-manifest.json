@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/frost-web/static/js/main.d6735bcd.chunk.js",
+    "main.js.map": "/frost-web/static/js/main.d6735bcd.chunk.js.map",
+    "runtime-main.js": "/frost-web/static/js/runtime-main.3bd3665f.js",
+    "runtime-main.js.map": "/frost-web/static/js/runtime-main.3bd3665f.js.map",
+    "static/js/2.aa9ee01b.chunk.js": "/frost-web/static/js/2.aa9ee01b.chunk.js",
+    "static/js/2.aa9ee01b.chunk.js.map": "/frost-web/static/js/2.aa9ee01b.chunk.js.map",
+    "index.html": "/frost-web/index.html",
+    "precache-manifest.ae75c5db7687d5099d5fe8b811c6d8d9.js": "/frost-web/precache-manifest.ae75c5db7687d5099d5fe8b811c6d8d9.js",
+    "service-worker.js": "/frost-web/service-worker.js",
+    "static/js/2.aa9ee01b.chunk.js.LICENSE": "/frost-web/static/js/2.aa9ee01b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bd3665f.js",
+    "static/js/2.aa9ee01b.chunk.js",
+    "static/js/main.d6735bcd.chunk.js"
+  ]
+}
