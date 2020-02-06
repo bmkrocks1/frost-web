@@ -10,7 +10,8 @@ import {
   TableBody,
   makeStyles,
 } from '@material-ui/core';
-import format from 'date-fns/format'
+import format from 'date-fns/format';
+import { utcToZonedTime } from 'date-fns-tz';
 import type { ObservationsAtRefTime, Observation } from '../../api/types';
 
 const useStyles = makeStyles({
@@ -57,7 +58,8 @@ const createTableCells = (
 };
 
 const createTableRow = (obsAtRefTime: ObservationsAtRefTime, index: number) => {
-  const formattedDate = format(new Date(obsAtRefTime.referenceTime), 'PPpp');
+  const date = utcToZonedTime(obsAtRefTime.referenceTime, 'Europe/Oslo');
+  const formattedDate = format(date, 'PPpp');
   return (
     <TableRow hover key={`${obsAtRefTime.sourceId}:${index}`}>
       <TableCell component='th' scope='row'>
